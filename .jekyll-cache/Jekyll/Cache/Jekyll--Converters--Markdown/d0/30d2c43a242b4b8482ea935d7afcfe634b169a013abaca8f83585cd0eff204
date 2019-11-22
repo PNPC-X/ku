@@ -1,0 +1,59 @@
+I"�<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                    &lt;div class="event-wrap d-flex flex-wrap justify-content-between"&gt;
+                        &lt;figure class="m-0"&gt;
+                            &lt;img src="images/1.2.jpeg" alt=""&gt;
+                        &lt;/figure&gt;
+
+                        &lt;div class="event-content-wrap"&gt;
+                            &lt;header class="entry-header d-flex flex-wrap align-items-center"&gt;
+                                &lt;h3 class="entry-title w-100 m-0"&gt;联系人罗老师是老师&lt;/h3&gt;
+
+                            &lt;/header&gt;&lt;!-- .entry-header --&gt;
+
+                            &lt;div class="entry-content"&gt;
+                                &lt;p class="m-0"&gt;AIB觅酷是觅酷网(www.miecu.net)的成员之一，由网络专业教A502项目组维护！联系人罗老师：短号666966手机号：13924226966&lt;/p&gt;
+                            &lt;/div&gt;&lt;!-- .entry-content --&gt;
+
+                          
+                        &lt;/div&gt;&lt;!-- .event-content-wrap --&gt;
+                    &lt;/div&gt;&lt;!-- .event-wrap --&gt;
+
+                     &lt;div class="event-wrap d-flex flex-wrap justify-content-between"&gt;
+                        &lt;figure class="m-0"&gt;
+                            &lt;img src="images/1.2.jpeg" alt=""&gt;
+                        &lt;/figure&gt;
+
+                        &lt;div class="event-content-wrap"&gt;
+                            &lt;header class="entry-header d-flex flex-wrap align-items-center"&gt;
+                                &lt;h3 class="entry-title w-100 m-0"&gt;联系人罗老师是老师&lt;/h3&gt;
+
+                            &lt;/header&gt;&lt;!-- .entry-header --&gt;
+
+                            &lt;div class="entry-content"&gt;
+                                &lt;p class="m-0"&gt;AIB觅酷是觅酷网(www.miecu.net)的成员之一，由网络专业教A502项目组维护！联系人罗老师：短号666966手机号：13924226966&lt;/p&gt;
+                            &lt;/div&gt;&lt;!-- .entry-content --&gt;
+
+                          
+                        &lt;/div&gt;&lt;!-- .event-content-wrap --&gt;
+                    &lt;/div&gt;&lt;!-- .event-wrap --&gt;
+
+                    &lt;div class="event-wrap d-flex flex-wrap justify-content-between"&gt;
+                        &lt;figure class="m-0"&gt;
+                            &lt;img src="images/1.3.jpeg" alt=""&gt;
+                        &lt;/figure&gt;
+
+                        &lt;div class="event-content-wrap"&gt;
+                            &lt;header class="entry-header d-flex flex-wrap align-items-center"&gt;
+                                &lt;h3 class="entry-title w-100 m-0"&gt;AIB觅酷是觅酷网的成员之一&lt;/h3&gt;
+
+                            &lt;/header&gt;&lt;!-- .entry-header --&gt;
+
+                            &lt;div class="entry-content"&gt;
+                                &lt;p class="m-0"&gt;AIB觅酷是觅酷网的成员之一，由网络专业教A502项目组维护！联系人罗老师：短号666966手机号：xxxxooooo&lt;/p&gt;
+                            &lt;/div&gt;&lt;!-- .entry-content --&gt;
+
+                        &lt;/div&gt;&lt;!-- .event-content-wrap --&gt;
+                    &lt;/div&gt;&lt;!-- .event-wrap --&gt;
+                &lt;/div&gt;&lt;!-- .upcoming-events --&gt;
+            &lt;/div&gt;&lt;!-- .col --&gt;
+</code></pre></div></div>
+:ET

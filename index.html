@@ -1,0 +1,322 @@
+---
+layout: base
+---
+
+
+
+
+
+    <div class="swiper-container hero-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide hero-content-wrap">
+                <img src="{{site.baseurl}}/images/{{page.pic|default: '1.2.jpeg'}}" alt="">
+
+                <div class="hero-content-overlay position-absolute w-100 h-100">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
+                                <header class="entry-header">
+                                    <h1>1.Donate</h1>
+                                </header><!-- .entry-header -->
+
+                                <div class="entry-content mt-4">
+                                    <p>Resume如其名字所示，是一个适用于个人简历/网站设计的bootstrap 4网站模板。然我看着也做不出来。。。。</p>
+                                </div><!-- .entry-content -->
+
+                                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
+                                    <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                                    <a href="#" class="btn orange-border">Read More</a>
+                                </footer><!-- .entry-footer -->
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .container -->
+                </div><!-- .hero-content-overlay -->
+            </div><!-- .hero-content-wrap -->
+
+            <div class="swiper-slide hero-content-wrap">
+                <img src="{{site.baseurl}}/images/{{page.pic|default: '1.1.jpeg'}}" alt="">
+
+                <div class="hero-content-overlay position-absolute w-100 h-100">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
+                                <header class="entry-header">
+                                    <h1>2.Donate</h1>
+                                </header><!-- .entry-header -->
+
+                                <div class="entry-content mt-4">
+                                   <p>该模板完全免费，且适应所有主流浏览器和平台。是一个适用于个人简历/网站设计的bootstrap 4网站模板。然我看着也做不出来。。。。</p>
+                                </div><!-- .entry-content -->
+
+                                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
+                                    <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                                    <a href="#" class="btn orange-border">Read More</a>
+                                </footer><!-- .entry-footer -->
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .container -->
+                </div><!-- .hero-content-overlay -->
+            </div><!-- .hero-content-wrap -->
+
+            <div class="swiper-slide hero-content-wrap">
+                <img src="{{site.baseurl}}/images/{{page.pic|default: '1.4.jpeg'}}" alt="">
+
+                <div class="hero-content-overlay position-absolute w-100 h-100">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
+                                <header class="entry-header">
+                                    <h1>3.Donate</h1>
+                                </header><!-- .entry-header -->
+
+                                <div class="entry-content mt-4">
+                                    <p>网站建设要求兼容手机端已经是一种刚需，也成为提升用户体验的一种必要方式。但这无疑会加大设计师和前端人员的工作量,完全没有考虑过代码狗的感受</p>
+                                </div><!-- .entry-content -->
+
+                                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
+                                    <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                                    <a href="#" class="btn orange-border">Read More</a>
+                                </footer><!-- .entry-footer -->
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .container -->
+                </div><!-- .hero-content-overlay -->
+            </div><!-- .hero-content-wrap -->
+        </div><!-- .swiper-wrapper -->
+
+        <div class="pagination-wrap position-absolute w-100">
+            <div class="container">
+                <div class="swiper-pagination"></div>
+            </div><!-- .container -->
+        </div><!-- .pagination-wrap -->
+
+        <!-- Add Arrows -->
+        <div class="swiper-button-next flex justify-content-center align-items-center">
+            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
+        </div>
+
+        <div class="swiper-button-prev flex justify-content-center align-items-center">
+            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"/></svg></span>
+        </div>
+    </div><!-- .hero-slider -->
+
+ 
+
+    <div class="home-page-events">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="upcoming-events">
+
+                
+                        <div class="section-heading">
+                            <h2 class="entry-title">使用前端框架网站模板</h2>
+                        </div><!-- .section-heading -->
+                            {% for post in site.posts %}
+                        <div class="event-wrap d-flex flex-wrap justify-content-between">
+                            <figure class="m-0">
+                                <img src="images/{{post.pic}}" alt="">
+                            </figure>
+
+                            <div class="event-content-wrap">
+                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                    <h3 class="entry-title w-100 m-0"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h3>
+
+                                <div class="entry-content">
+                                    <p class="m-0">{{post.neir|truncate:15}}</p>
+                                </div><!-- .entry-content -->                            
+                            </div><!-- .event-content-wrap -->
+                        </div><!-- .event-wrap -->
+                       {% endfor %}
+
+
+                    </div><!-- .upcoming-events -->
+                </div><!-- .col -->
+             
+
+                <div class="col-12 col-lg-6">
+                    <div class="featured-cause">
+                        <div class="section-heading">
+                            <h2 class="entry-title">最大程度的节约成本</h2>
+                        </div><!-- .section-heading -->
+
+                        <div class="cause-wrap d-flex flex-wrap justify-content-between">
+                            <figure class="m-0">
+                                <img src="images/1.jpeg" alt="">
+                            </figure>
+
+                            <div class="cause-content-wrap">
+                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                    <h3 class="entry-title w-100 m-0">高品质Bootstrap网站模板</h3>
+
+                                    
+                                </header><!-- .entry-header -->
+
+                                <div class="entry-content">
+                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris. Lorem ipsum dolor sit amet, consectetur.</p>
+                                </div><!-- .entry-content -->
+
+                                <div class="entry-footer mt-5">
+                                    <a href="#" class="btn gradient-bg mr-2">高品质 网站</a>
+                                </div><!-- .entry-footer -->
+                            </div><!-- .cause-content-wrap -->
+
+                         
+                                </div><!-- .fund-raised-details -->
+                            </div><!-- .fund-raised -->
+                        </div><!-- .cause-wrap -->
+                    </div><!-- .featured-cause -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .home-page-events -->
+
+
+
+
+    <div class="our-causes">
+        <div class="container">
+            <div class="row">
+                <div class="coL-12">
+                    <div class="section-heading">
+                        <h2 class="entry-title">个人 简历</h2>
+                    </div><!-- .section-heading -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="swiper-container causes-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="cause-wrap">
+                                    <figure class="m-0">
+                                        <img src="images/cause-1.jpg" alt="">
+
+                                        <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                                            <a href="#" class="btn gradient-bg mr-2">搭建个人网站</a>
+                                        </div><!-- .figure-overlay -->
+                                    </figure>
+
+                                    <div class="cause-content-wrap">
+                                        <header class="entry-header d-flex flex-wrap align-items-center">
+                                            <h3 class="entry-title w-100 m-0"><a href="#">带有滚动页面锚点的固定侧面导航</a></h3>
+                                        </header><!-- .entry-header -->
+
+                                        <div class="entry-content">
+                                            <p class="m-0">该模板带有移动后备图像的视频背景，社交图标和Newsletter注册通道。社交图标和Newsletter注册通道。</p>
+                                        </div><!-- .entry-content -->
+
+                                        <div class="fund-raised w-100">
+                                           
+
+                                            <div class="fund-raised-details d-flex flex-wrap justify-content-between align-items-center">
+                                               
+                                              
+                                            </div><!-- .fund-raised-details -->
+                                        </div><!-- .fund-raised -->
+                                    </div><!-- .cause-content-wrap -->
+                                </div><!-- .cause-wrap -->
+                            </div><!-- .swiper-slide -->
+
+                            <div class="swiper-slide">
+                                <div class="cause-wrap">
+                                    <figure class="m-0">
+                                        <img src="images/cause-2.jpg" alt="">
+
+                                        <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                                            <a href="#" class="btn gradient-bg mr-2">以人 为本</a>
+                                        </div><!-- .figure-overlay -->
+                                    </figure>
+
+                                    <div class="cause-content-wrap">
+                                        <header class="entry-header d-flex flex-wrap align-items-center">
+                                            <h3 class="entry-title w-100 m-0"><a href="#">Education for all</a></h3>
+                                        </header><!-- .entry-header -->
+
+                                        <div class="entry-content">
+                                            <p class="m-0">继续坚定不移地把改革创新精神贯彻到教学工作的各个环节，建立充满活力、富有激情、学习气氛浓烈的有利于</p>
+                                        </div><!-- .entry-content -->
+
+                                        <div class="fund-raised w-100">
+                                            
+
+                                            <div class="fund-raised-details d-flex flex-wrap justify-content-between align-items-center">
+                     
+                                            </div><!-- .fund-raised-details -->
+                                        </div><!-- .fund-raised -->
+                                    </div><!-- .cause-content-wrap -->
+                                </div><!-- .cause-wrap -->
+                            </div><!-- .swiper-slide -->
+
+
+                            <div class="swiper-slide">
+                                <div class="cause-wrap">
+                                    <figure class="m-0">
+                                        <img src="images/cause-1.jpg" alt="">
+
+                                        <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                                            <a href="#" class="btn gradient-bg mr-2">以人 为本</a>
+                                        </div><!-- .figure-overlay -->
+                                    </figure>
+
+                                    <div class="cause-content-wrap">
+                                        <header class="entry-header d-flex flex-wrap align-items-center">
+                                            <h3 class="entry-title w-100 m-0"><a href="#">Education for all</a></h3>
+                                        </header><!-- .entry-header -->
+
+                                        <div class="entry-content">
+                                            <p class="m-0">继续坚定不移地把改革创新精神贯彻到教学工作的各个环节，建立充满活力、富有激情、学习气氛浓烈的有利于</p>
+                                        </div><!-- .entry-content -->
+
+                                        <div class="fund-raised w-100">
+                                            
+
+                                            <div class="fund-raised-details d-flex flex-wrap justify-content-between align-items-center">
+                     
+                                            </div><!-- .fund-raised-details -->
+                                        </div><!-- .fund-raised -->
+                                    </div><!-- .cause-content-wrap -->
+                                </div><!-- .cause-wrap -->
+                            </div><!-- .swiper-slide -->
+
+                          
+
+                                            </div><!-- .fund-raised-details -->
+                                        </div><!-- .fund-raised -->
+                                    </div><!-- .cause-content-wrap -->
+                                </div><!-- .cause-wrap -->
+                            </div><!-- .swiper-slide -->
+                        </div><!-- .swiper-wrapper -->
+
+                    </div><!-- .swiper-container -->
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next flex justify-content-center align-items-center">
+                        <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
+                    </div>
+
+                    <div class="swiper-button-prev flex justify-content-center align-items-center">
+                        <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"/></svg></span>
+                    </div>
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .our-causes -->
+
+    <div class="home-page-limestone">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="coL-12 ">
+                    <div class="section-heading">
+                        <h2 class="entry-title">Resume如其名字所示，是一个适用于个人简历/网站设计的bootstrap 4网站模板。该模板简洁、优雅，非常具有设计感，</h2>
+
+                        <p class="mt-5">带有滚动页面锚点的固定侧面导航，并且是完全响应式的，使用它来搭建个人网站，可以让你的访客眼前一亮。</p>
+                    </div><!-- .section-heading -->
+                </div><!-- .col -->
+
+              
+                 
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .our-causes -->
